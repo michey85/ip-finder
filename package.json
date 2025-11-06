@@ -3,25 +3,25 @@
   "homepage": "https://michey85.github.io/ip-finder",
   "version": "1.0.0",
   "description": "IP Finder challenge from FrontendMentor.io",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html --out-dir=build",
     "deploy": "vercel"
   },
-  "keywords": [],
-  "author": "",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "license": "ISC",
   "devDependencies": {
-    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.28.5",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "parcel-bundler": "^1.12.4",
-    "vercel": "^23.0.1"
+    "buffer": "^6.0.3",
+    "parcel": "^2.16.1",
+    "vercel": "^23.1.2"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.13.2",
     "babel-polyfill": "^6.26.0",
-    "leaflet": "^1.7.1"
+    "leaflet": "^1.9.4"
   }
 }
