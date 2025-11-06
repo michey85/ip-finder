@@ -6,8 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html --out-dir=build",
-    "deploy": "vercel"
+    "build": "parcel build index.html --dist-dir=build"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "license": "ISC",
@@ -16,8 +15,7 @@
     "babel-core": "^6.26.3",
     "babel-plugin-transform-runtime": "^6.23.0",
     "buffer": "^6.0.3",
-    "parcel": "^2.16.1",
-    "vercel": "^23.1.2"
+    "parcel": "^2.16.1"
   },
   "dependencies": {
     "axios": "^1.13.2",
